@@ -1,14 +1,17 @@
-import './App.css';
-import Header from "./components/Header.js"
-import Main from "./components/Main.js"
-import Footer from "./components/Footer.js"
+import React from "react";
+import "./App.css";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-    <Header/>
-    <Main/>
-    <Footer/>
+      <Nav />
+      <Main />
+      <Menu />
+      <Footer />
     </>
   );
 }
